@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Contact"
+        android:id="@+id/contact"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:title="order"
+        app:showAsAction="always"
+        android:id="@+id/orderIcon"
+        android:orderInCategory="3"
+        android:icon="@drawable/order"
+        />
+    <item
+        android:title="status"
+        app:showAsAction="always"
+        android:id="@+id/statusIcon"
+        android:orderInCategory="3"
+        android:icon="@drawable/status"
+        />
+    <item
+        android:title="favorites"
+        app:showAsAction="ifRoom"
+        android:id="@+id/favoritesIcon"
+        android:orderInCategory="3"
+        android:icon="@drawable/favorites"
+        />
+
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="10"
+        android:title="Edit" />
+
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="20"
+        android:title="Share" />
+
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="30"
+        android:title="Delete" />
+
+</menu>
